@@ -8,6 +8,6 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>graphql</module>
+        <module>graphql-reactive</module>
     </modules>
 </project>

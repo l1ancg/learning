@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:123@localhost:27017/test?authSource=admin&readPreference=primary&ssl=false&directConnection=true
+  graphql:
+    websocket:
+      path: /graphql
+      connection-init-timeout: 30s
+
+debug: true
