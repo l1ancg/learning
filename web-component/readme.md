@@ -1,0 +1,16 @@
+- shadow dom：封装了一个元素，这个元素可以被插入到其他元素中，隔离了元素的样式和事件，根iframe类似
+- attributes：标签的属性，就是<lit-counter count="100"></lit-counter>中的100
+- property： 元素的属性，document.getElementById('id').property，包含attributes
+- 属性传递：通过标签或元素的属性，对象时只能使用元素的属性传递数据
+- 生命周期：默认的四个声明周期函数很少使用（首次挂载、卸载、移动、修改元素），可以使用lit分装的firstUpdated，
+- css集成：组件内部集成外部的样式:root {--color-red: red;}
+- 可用的库：
+  - https://web-components.carbondesignsystem.com/
+  - https://docs.microsoft.com/en-us/fluent-ui/web-components/
+  - https://wiredjs.com/
+  - https://opensource.adobe.com/spectrum-web-components/getting-started/
+  - https://sap.github.io/ui5-webcomponents/playground/getting-started
+  - https://shoelace.style/
+  - https://kor-ui.com/introduction/welcome
+  - https://bendera.github.io/vscode-webview-elements/pages/getting-started/
+  - https://vaadin.com/docs/latest/ds/overview
