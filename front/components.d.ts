@@ -5,15 +5,6 @@ import '@vue/runtime-core'
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    Bar: typeof import('./src/components/layout/Bar.vue')['default']
-    CBar: typeof import('./src/components/layout/CBar.vue')['default']
-    CContent: typeof import('./src/components/layout/CContent.vue')['default']
-    CMain: typeof import('./src/components/layout/CMain.vue')['default']
-    CMenu: typeof import('./src/components/layout/CMenu.vue')['default']
-    Content: typeof import('./src/components/layout/Content.vue')['default']
-    HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
-    Main: typeof import('./src/components/layout/Main.vue')['default']
-    Menu: typeof import('./src/components/layout/Menu.vue')['default']
     NButton: typeof import('naive-ui')['NButton']
     NCalendar: typeof import('naive-ui')['NCalendar']
     NCascader: typeof import('naive-ui')['NCascader']
