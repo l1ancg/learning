@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  kubepi:
+    image: 1panel/kubepi
+    container_name: kubepi
+    ports:
+      - '9999:80'
+    volumes:
+      - '/home/lian/.minikube/profiles/minikube/client.key:/client.key'
+      - '/home/lian/.minikube/profiles/minikube/client.crt:/client.crt'
+      - '/home/lian/.minikube/ca.crt:/ca.crt'
+    networks:
+      minikube:
+        ipv4_address: 192.168.49.199
+
+networks:
+  minikube:
+    external: true
